@@ -1,7 +1,12 @@
+import NavBar from "../../components/navbar/navbar";
+
 const Agent = () => {
   return (
     <>
-      <div></div>
+      <NavBar />
+      <div>
+        <h1>Agent page</h1>
+      </div>
     </>
   );
 };

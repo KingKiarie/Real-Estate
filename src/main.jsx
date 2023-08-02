@@ -3,10 +3,15 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Homepage from "./Pages/homepage.jsx";
 import Advertise from "./Pages/ads.jsx";
 import Buy from "./Pages/Estate/buy.jsx";
 import Rent from "./Pages/Estate/rent.jsx";
 import Sell from "./Pages/Estate/sell.jsx";
+import About from "./Pages/About.jsx";
+import Signup from "./Pages/signup.jsx";
+import Help from "./Pages/help.jsx";
+import Agent from "./Pages/Estate/agent.jsx";
 
 const paths = createBrowserRouter([
   {

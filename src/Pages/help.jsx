@@ -1,7 +1,12 @@
+import NavBar from "../components/navbar/navbar";
+
 const Help = () => {
   return (
     <>
-      <div></div>
+      <NavBar />
+      <div>
+        <h1>Help</h1>
+      </div>
     </>
   );
 };

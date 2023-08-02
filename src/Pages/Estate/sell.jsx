@@ -1,7 +1,10 @@
+import NavBar from "../../components/navbar/navbar";
+
 const Sell = () => {
   return (
     <>
-      <div></div>
+    <NavBar/
+      <div>Sell page</div>
     </>
   );
 };
