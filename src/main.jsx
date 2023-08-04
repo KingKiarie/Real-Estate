@@ -3,15 +3,18 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Homepage from "./Pages/homepage.jsx";
-import Advertise from "./Pages/ads.jsx";
-import Buy from "./Pages/Estate/buy.jsx";
-import Rent from "./Pages/Estate/rent.jsx";
-import Sell from "./Pages/Estate/sell.jsx";
+import Homepage from "./Pages/Homepage.jsx";
+import Advertise from "./Pages/Ads.jsx";
+import Buy from "./Pages/Estate/Buy.jsx";
+import Rent from "./Pages/Estate/Rent.jsx";
+import Sell from "./Pages/Estate/Sell.jsx";
 import About from "./Pages/About.jsx";
-import Signup from "./Pages/signup.jsx";
-import Help from "./Pages/help.jsx";
-import Agent from "./Pages/Estate/agent.jsx";
+//Authentication pages import
+import Signup from "./Pages/Authentication/Signup.jsx";
+import Login from "./Pages/Authentication/Login.jsx";
+//
+import Help from "./Pages/Help.jsx";
+import Agent from "./Pages/Estate/Agent.jsx";
 
 const paths = createBrowserRouter([
   {
@@ -27,8 +30,8 @@ const paths = createBrowserRouter([
     element: <About />,
   },
   {
-    path: "/signup",
-    element: <Signup />,
+    path: "/login",
+    element: <Login />,
   },
   {
     path: "/help",
@@ -53,6 +56,10 @@ const paths = createBrowserRouter([
   {
     path: "/agent",
     element: <Agent />,
+  },
+  {
+    path: "/signup",
+    element: <Signup />,
   },
 ]);
 

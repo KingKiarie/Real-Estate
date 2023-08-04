@@ -1,0 +1,21 @@
+.NavBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+  .leftbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .rightbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .img > .Logo {
+    width: 200px;
+    height: 200px;
+  }
+}
